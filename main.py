@@ -26,12 +26,59 @@ while True:
     volume = microphone.value
 
     print(volume)
+if volume >= 15000:
+        leds[0].value = True
+    else:
+        leds[0].value = False
 
-    leds[0].value = not leds[0].value
-    leds[1].value = not leds[0].value
+    if volume >= 18000:
+        leds[1].value = True
+    else:
+        leds[1].value = False
 
-    sleep(1)
+    if volume >= 21000:
+        leds[2].value = True
+    else:
+        leds[2].value = False
 
-    # instead of blinking,
-    # how can you make the LEDs
-    # turn on like a volume meter?
+    if volume >= 24000:
+        leds[3].value = True
+    else:
+        leds[3].value = False
+
+    if volume >= 27000:
+        leds[4].value = True
+    else:
+        leds[4].value = False
+
+    if volume >= 30000:
+        leds[5].value = True
+    else:
+        leds[5].value = False
+
+    if volume >= 33000:
+        leds[6].value = True
+    else:
+        leds[6].value = False
+
+    if volume >= 36000:
+        leds[7].value = True
+    else:
+        leds[7].value = False
+
+    if volume >= 39000:
+        leds[8].value = True
+    else:
+        leds[8].value = False
+
+    if volume >= 42000:
+        leds[9].value = True
+    else:
+        leds[9].value = False
+
+    if volume >= 45000:
+        leds[10].value = True
+    else:
+        leds[10].value = False
+
+    sleep(0.1)
