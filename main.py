@@ -26,6 +26,7 @@ while True:
     volume = microphone.value
 
     print(volume)
+    
 if volume >= 15000:
         leds[0].value = True
     else:
