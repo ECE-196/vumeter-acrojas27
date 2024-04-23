@@ -13,4 +13,4 @@ Audrey Rojas
 Changed main.py code to reflect VUMeter
 
 ### Removed
-...
+Added submission video of working neter
